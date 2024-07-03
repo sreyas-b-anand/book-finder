@@ -1,0 +1,32 @@
+.card{
+    width: 18rem;
+    height: 32rem !important;
+    
+
+   
+}
+img{
+    height: 15rem;
+    width: 3rem;
+    padding: 25px;
+    content:icon;
+}
+.cards{
+    display: grid;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    place-items: center;
+    gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+.imageError{
+    height: 15rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
