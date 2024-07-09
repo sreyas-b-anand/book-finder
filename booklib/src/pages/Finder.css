@@ -1,0 +1,99 @@
+*{
+    background-color: var(--bg-dark);
+}
+.container1{
+    height: 100vh;
+    background-color: var(--bg-dark);
+}
+#search{
+  
+  border:solid var(--primary-light);
+  border-radius: 10px;
+  background-color: var(--cd-bg-dark) !important;
+  width: 17rem;
+}
+.input{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding-left:0 ;
+    gap: 40px;
+
+}
+.btn{
+    background-color: var(--primary-light);
+    border: none;
+    border-radius: 10px;
+}
+.btn:hover{
+    opacity: 0.5;
+}
+.section{
+    height: 5rem;
+    width: 100vw;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: var(--bg-dark);
+}
+ #spinner{
+    background-color: var(--bg-dark);
+    width: 100vw;
+    color: white;
+    align-items: baseline;
+    justify-content: center;
+    display:inline-flex;
+    position: absolute;
+    padding-top: 20px;
+   
+}
+#spinner .article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--bg-dark);
+    padding-top: 20px;
+}
+
+
+
+.bookname{
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+
+    
+}
+.error{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    position: absolute;
+    top: 50%;
+    color: var(--primary-light);
+}
+.search-books{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: bold;
+    -webkit-text-stroke: 2px cyan;
+}
+@media only screen and (max-width:600) {
+    .input #search{
+        width: 11rem !important;
+    }
+    .input{
+        width: 320px
+    }
+}

@@ -1,0 +1,125 @@
+*{
+    
+    background-color: var(--cd-bg-dark);
+}
+.cards{
+    height: auto;
+    width: 100vw;
+    padding-left: 0;
+    padding-top: 30px;
+}
+
+
+.cards .card {
+  width: 40rem;
+  height: 28rem !important;
+  display: flex;
+ flex-direction: row;
+  background-color: var( --cd-bg-dark);
+  border: solid grey;
+ 
+}
+.cards img {
+  height: 27rem;
+  width: 20rem;
+  padding: 10px;
+  padding-bottom:inherit ;
+  border-radius: 10px;
+  background-color: var(--cd-bg-dark);
+  
+}
+.cards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.cards .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cd-bg-dark) !important;
+    justify-content: flex-start;
+    gap: 15px;
+    list-style: none;
+    padding: 20px;
+
+}
+.cards .article-link , .header-title ,.section-author , .li-item , .p-link ,.a-link{
+    gap: 10px;
+    background-color: var(--cd-bg-dark) !important;
+}
+.header-title {
+    color: var(--primary-text-d) !important;
+    font-size: 22px;
+    padding: 20px;
+    padding-left: 0;
+
+}
+.article-link {
+    color: rgb(124, 124, 124) !important;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px;
+    padding-left: 0 ;
+    padding-right: 0;
+}
+.section-author{
+    color: var(--secondary-text-d);
+    font-size: 15px;
+}
+
+@media only screen  and (max-width:683px){
+    *{
+        padding: 0 !important;
+       
+    }
+    .cards{
+        padding-top: 30px !important;
+    }
+
+    .cards .card{
+        height: 33rem !important;
+        width: 18rem;
+    }
+    .cards .card{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    .cards img {
+        height: 14rem;
+        width: 14rem;
+        align-items: center;
+        display: flex;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cards .card-content{
+        height: 12rem;
+        width: 16rem;
+    }
+    .header-title {
+        font-size: 16px;
+    }
+    .section-author{
+        font-size: 12px;
+    }
+    .article-link{
+        font-size: 10px;
+        padding-bottom: 0 !important;
+    }
+    .btn{
+        height: 2.5rem;
+        display: flex;
+        align-content: center;
+    }
+  
+
+}
