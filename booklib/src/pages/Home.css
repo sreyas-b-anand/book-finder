@@ -1,3 +1,6 @@
+*{
+    z-index: 0;
+}
 .article-info{
     font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -7,5 +10,19 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 30px;
+    padding: 30px !important;
+}
+article .welcome{
+    font-size: 30px;
+}
+.article-info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.section-info{
+    font-size: 15px;
 }

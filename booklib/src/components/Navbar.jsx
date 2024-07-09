@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import book from "../assets/book.jpg";
+import Sidebar from "./Sidebar";
 
 const Navbar = () => {
   return (
@@ -11,7 +12,7 @@ const Navbar = () => {
           <header>Booklib</header>
         </section>
 
-        <nav>
+        <nav className="nav">
           <Link className="link" to={"/"}>
             Home
           </Link>
@@ -19,6 +20,7 @@ const Navbar = () => {
             Search
           </Link>
         </nav>
+        <Sidebar />
       </div>
     </>
   );

@@ -36,17 +36,6 @@ function Card ({books}){
     </>
   )
 }
-/*<img src={book.volumeInfo.imageLinks && book.volumeInfo.imageLinks.smallThumbnail} className="card-img-top" alt={book.volumeInfo.title}  />
-         
-<div className="card-body">
-  <h5 className="card-title ">{book.volumeInfo.title}</h5>
-  <article className='card-text'>
- {book.volumeInfo.authors.map((auth) =>(
-   <li key={index}>{auth}</li>
- ))}
-  </article>
-  <a href={book.volumeInfo.previewLink} className="btn btn-primary" id="buttonlink" >Book</a>
-  <p className='link'>Data provided by <a href="https://books.google.com/">google books</a></p>
-</div>*/
+
 
 export default Card

@@ -9,6 +9,9 @@ const Finder = () => {
   const [search, setSearch] = useState("warcraft");
   const handleClick = () => {
     setSearch(value);
+    if (!value) {
+      setSearch("Warcraft");
+    }
   };
 
   const apikey = import.meta.env.VITE_GOOGLE_BOOKS_API_KEY;

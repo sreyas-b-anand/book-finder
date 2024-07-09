@@ -1,5 +1,6 @@
 *{
     background-color: var(--bg-dark);
+    z-index: 0;
 }
 .container1{
     height: 100vh;
@@ -59,17 +60,12 @@
     background-color: var(--bg-dark);
     padding-top: 20px;
 }
-
-
-
 .bookname{
     font-size: large;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100vw;
-
-    
 }
 .error{
     width: 100vw;
@@ -93,7 +89,8 @@
     .input #search{
         width: 11rem !important;
     }
-    .input{
-        width: 320px
+    .section{
+        
+        margin-top: 40px !important;
     }
 }
