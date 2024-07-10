@@ -2,8 +2,7 @@
 import './Card.css'
 
 function Card ({books}){
-   
-  let i = 0;
+ 
   return (
     <>
 
@@ -16,8 +15,8 @@ function Card ({books}){
         {book.volumeInfo.title}
           </header>
           <section className='section-author'> 
-          {book.volumeInfo.authors  && book.volumeInfo.authors.map((auth) =>(
-   <li className='li-item' key={i++}>{auth}</li>
+          {book.volumeInfo.authors  && book.volumeInfo.authors.map((auth , index) =>(
+   <li className='li-item' key={index}>{auth}</li>
  ))}
           </section>
           <article className='article-link'>

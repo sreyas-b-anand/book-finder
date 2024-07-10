@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link  } from "react-router-dom";
 import "./Navbar.css";
 import book from "../assets/book.jpg";
 import Sidebar from "./Sidebar";
@@ -11,12 +11,11 @@ const Navbar = () => {
           <img src={book} className="logo" />
           <header>Booklib</header>
         </section>
-
         <nav className="nav">
-          <Link className="link" to={"/"}>
+          <Link className="link" to={'/'}>
             Home
           </Link>
-          <Link className="link" to={"/Books"}>
+          <Link className="link" to={'/Books'}>
             Search
           </Link>
         </nav>

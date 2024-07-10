@@ -12,6 +12,8 @@
   border-radius: 10px;
   background-color: var(--cd-bg-dark) !important;
   width: 17rem;
+  height: 2rem;
+  color: var(--primary-text-d);
 }
 .input{
     padding-top: 30px;
@@ -21,6 +23,7 @@
     align-items: center;
     justify-content: center;
     width: 100vw;
+    height: 11rem;
     padding-left:0 ;
     gap: 40px;
 
